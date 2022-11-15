@@ -1,0 +1,95 @@
+{
+    "size": {
+    "width": 2500,
+    "height": 1686
+    },
+    "selected": false,
+    "name": "功能選單",
+    "chatBarText": "查看更多功能",
+    "areas": [
+        {
+        "bounds": 
+            {
+            "x": 5,
+            "y": 0,
+            "width": 833,
+            "height": 843
+            },
+        "action": 
+            {
+            "type": "postback",
+            "text": "我要逛逛生鮮團購",
+            "data": "location_confirmed"
+            }
+        },
+        {
+        "bounds": 
+            {
+            "x": 835,
+            "y": 0,
+            "width": 833,
+            "height": 843
+            },
+        "action": 
+            {
+            "type": "postback",
+            "text": "我要參加果樹認養",
+            "data": "tree_adopt"
+            }
+        },
+        {
+        "bounds": 
+            {
+            "x": 1665,
+            "y": 0,
+            "width": 834,
+            "height": 843
+            },
+        "action": 
+            {
+            "type": "postback",
+            "text": "我要參加行銷活動",
+            "data": "get_coupon"
+            }
+        },
+        {
+        "bounds": {
+            "x": 5,
+            "y": 843,
+            "width": 833,
+            "height": 843
+            },
+        "action": {
+            "type": "postback",
+            "text": "我的購物車",
+            "data": "my_shopping_cart"
+            }
+        },
+        {
+        "bounds": {
+            "x": 835,
+            "y": 843,
+            "width": 833,
+            "height": 843
+            },
+        "action": {
+            "type": "postback",
+            "text": "我的訂單",
+            "data": "my_order"
+            }
+        },
+        {
+        "bounds": {
+            "x": 1665,
+            "y": 843,
+            "width": 834,
+            "height": 843
+            },
+        "action": {
+            "type": "postback",
+            "text": "我要設定個人資料",
+            "data": "profile_settings"
+            }
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+[
+    {
+        "type": "text",
+        "text": "您的作品已提交，恭喜您獲得一張 9 折優惠券"
+    },
+    {
+          "type": "flex",
+          "altText": "This is a Flex Message",
+          "contents": {
+            "type": "bubble",
+            "body": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "折扣 ｜ 限單次使用",
+                  "weight": "bold",
+                  "color": "#1DB446",
+                  "size": "xs"
+                },
+                {
+                  "type": "text",
+                  "text": "9 折優惠券",
+                  "weight": "bold",
+                  "size": "xl",
+                  "margin": "md"
+                },
+                {
+                  "type": "text",
+                  "text": "至 2022/12/31 23:59止",
+                  "size": "xs",
+                  "color": "#aaaaaa",
+                  "wrap": true
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "postback",
+                    "label": "儲存此優惠券",
+                    "data": "save_coupon",
+                    "displayText": "我要儲存此優惠券"
+                  },
+                  "style": "primary",
+                  "margin": "lg"
+                }
+              ]
+            },
+            "footer": {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "- To redeem your coupon, present this screen at checkout.",
+                  "size": "12px",
+                  "color": "#aaaaaa",
+                  "wrap": true,
+                  "offsetStart": "sm"
+                },
+                {
+                  "type": "text",
+                  "text": "- Redeemable once only even if redeemed unintentionally by the customer.",
+                  "size": "12px",
+                  "color": "#aaaaaa",
+                  "wrap": true,
+                  "offsetStart": "sm"
+                }
+              ],
+              "paddingBottom": "md"
+            },
+            "styles": {
+              "footer": {
+                "separator": true
+              }
+            }
+          }
+    }
+]

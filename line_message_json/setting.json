@@ -1,0 +1,18 @@
+[
+    {
+    "type": "text",
+    "text": "請選擇您的位置，並輸入收件人和聯絡電話",
+    "quickReply": {
+    "items": 
+            [
+                {
+                "type": "action",
+                "action": {
+                    "type": "location",
+                    "label": "選擇您所在的位置"
+                    }
+                }
+            ]
+        }
+    }
+]

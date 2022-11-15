@@ -1,0 +1,45 @@
+[
+    {
+    "type": "text",
+    "text": "嗨嗨，我是花媽，歡迎加入花媽優選 $。\n\n我們是以「里」為單位的水果社區團購平台 $，采預售模式、產地直銷、集采集配，只要兩天，您購買的生鮮商品就會寄送到離妳最近的「里」。\n\n因為是以「里」為單位集體採購，讓您以最划算的價格買到最新鮮的水果 $，還可以集體認養果樹分享一整年的產量喔 $。\n\n現在就來選擇離您最近的「里」吧 $！",
+    "emojis": [
+        {
+            "index": 17,
+            "productId": "5ac2173d031a6752fb806d56",
+            "emojiId": "221"
+        },
+        {
+            "index": 41,
+            "productId": "5ac2173d031a6752fb806d56",
+            "emojiId": "041"
+        },
+        {
+            "index": 121,
+            "productId": "5ac2173d031a6752fb806d56",
+            "emojiId": "056"
+        },
+        {
+            "index": 142,
+            "productId": "5ac2213e040ab15980c9b447",
+            "emojiId": "047"
+        },
+        {
+            "index": 162,
+            "productId": "5ac22293031a6752fb806d63",
+            "emojiId": "150"
+        }
+    ],
+    "quickReply": {
+    "items": 
+            [
+                {
+                "type": "action",
+                "action": {
+                    "type": "location",
+                    "label": "選擇您所在的位置"
+                    }
+                }
+            ]
+        }
+    }
+]

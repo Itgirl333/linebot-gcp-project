@@ -1,0 +1,103 @@
+[
+  {
+    "type": "flex",
+    "altText": "genlyrics",
+    "contents": {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://variety.com/wp-content/uploads/2022/07/Music-Streaming-Wars.jpg",
+        "size": "full",
+        "aspectRatio": "20:7",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "http://linecorp.com/"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "生成的歌詞",
+            "wrap": true,
+            "weight": "bold",
+            "gravity": "center",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "lg",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "主歌",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "无法逃脱的欲望\n被强拆掉了梦\n破灭一切重建未来\n时空交错\n乌云密布\n暴风雨将至\n末日降临的气息\n压抑着心跳脉搏\n生死一线间\n危机四伏\n等待那最后拼劲儿\n看谁能撑到最后wo og地壳变动引起潮汐\n海啸冲刷侵蚀残骸\n高楼大厦化为平地\n只剩疯狂在游走\n",
+                    "wrap": true,
+                    "size": "sm",
+                    "color": "#666666",
+                    "flex": 4
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "副歌",
+                    "color": "#aaaaaa",
+                    "size": "sm",
+                    "flex": 1
+                  },
+                  {
+                    "type": "text",
+                    "text": "我驾驶着钢铁巨人\n飞跃都市峡谷战场\n踏碎阻碍前往理想的轨道\n打开通往内心自由世界\n穿上纳米防护服抵挡伤害\n用锋利如新的刃口撕裂敌手",
+                    "wrap": true,
+                    "color": "#666666",
+                    "size": "sm",
+                    "flex": 4
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "提交作品",
+              "data": "commit_lyric",
+              "displayText": "提交作品參加比賽"
+            },
+            "style": "secondary"
+          }
+        ]
+      }
+    }
+  }
+]

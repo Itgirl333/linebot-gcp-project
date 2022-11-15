@@ -1,0 +1,146 @@
+[
+    {
+        "type": "flex",
+        "altText": "This is a Flex Message",
+        "contents": {
+            "type": "bubble",
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "購物車",
+                        "weight": "bold",
+                        "color": "#1DB446",
+                        "size": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "花媽優選",
+                        "weight": "bold",
+                        "size": "xl",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "text",
+                        "text": "收貨地址: 全安里",
+                        "size": "xs",
+                        "color": "#aaaaaa",
+                        "wrap": false,
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "text",
+                        "text": "預計到貨日期: 2日後",
+                        "size": "xs",
+                        "color": "#aaaaaa",
+                        "wrap": true,
+                        "margin": "sm"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "xxl"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "xxl",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "horizontal",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "text": "有機紅肉火龍果(L)",
+                                        "size": "sm",
+                                        "color": "#555555",
+                                        "flex": 0
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "$ 126",
+                                        "size": "sm",
+                                        "color": "#111111",
+                                        "align": "end"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "horizontal",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "text": "產銷履歷木瓜(中)",
+                                        "size": "sm",
+                                        "color": "#555555",
+                                        "flex": 0
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "$ 80",
+                                        "size": "sm",
+                                        "color": "#111111",
+                                        "align": "end"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "separator",
+                                "margin": "xxl"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "horizontal",
+                                "contents": [
+                                    {
+                                        "type": "text",
+                                        "text": "總計",
+                                        "size": "sm",
+                                        "color": "#555555"
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": "$ 206",
+                                        "size": "sm",
+                                        "color": "#111111",
+                                        "align": "end"
+                                    }
+                                ],
+                                "margin": "md"
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow",
+                                    "displayText": "我要直接下單"
+                                },
+                                "style": "primary",
+                                "margin": "xl"
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "清空購物車",
+                                    "data": "clear_cart",
+                                    "displayText": "我要清空購物車"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "styles": {
+                "footer": {
+                    "separator": true
+                }
+            }
+        }
+    }
+]

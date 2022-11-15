@@ -1,0 +1,464 @@
+[
+    {
+          "type": "flex",
+          "altText": "This is a Flex Message",
+          "contents": {
+            "type": "carousel",
+            "contents": [
+                {
+                    "type": "bubble",
+                    "header": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "horizontal",
+                          "contents": [
+                            {
+                              "type": "image",
+                              "url": "https://wenxin.baidu.com/younger/file/ERNIE-ViLG/8bab33435419ff739a5d635ea2f07068a2",
+                              "size": "full",
+                              "aspectMode": "cover",
+                              "aspectRatio": "150:196",
+                              "gravity": "center",
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "image",
+                                  "url": "https://wenxin.baidu.com/younger/file/ERNIE-ViLG/5c5b5509fb43cdfce1431167bfaccd49ex",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                },
+                                {
+                                  "type": "image",
+                                  "url": "https://wenxin.baidu.com/younger/file/ERNIE-ViLG/5c5b5509fb43cdfce1431167bfaccd49a2",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "horizontal",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "text": "NEW",
+                                  "size": "xs",
+                                  "color": "#ffffff",
+                                  "align": "center",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "backgroundColor": "#EC3D44",
+                              "paddingAll": "2px",
+                              "paddingStart": "4px",
+                              "paddingEnd": "4px",
+                              "flex": 0,
+                              "position": "absolute",
+                              "offsetStart": "18px",
+                              "offsetTop": "18px",
+                              "cornerRadius": "100px",
+                              "width": "48px",
+                              "height": "25px"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "0px"
+                    },
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "contents": [],
+                                  "size": "xl",
+                                  "wrap": true,
+                                  "text": "文字生圖 Competition",
+                                  "color": "#ffffff",
+                                  "weight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "用文字生成田園、果園、果農等相關的圖片，描繪果農純樸的生活樣貌，參與皆可贏得一張9折優惠券。票選前三名還可以贏得1000元折價券喔。",
+                                  "color": "#ffffffcc",
+                                  "size": "sm",
+                                  "wrap": true
+                                }
+                              ],
+                              "spacing": "sm"
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "box",
+                                  "layout": "vertical",
+                                  "contents": [
+                                    {
+                                      "type": "text",
+                                      "contents": [],
+                                      "size": "sm",
+                                      "wrap": true,
+                                      "margin": "sm",
+                                      "color": "#ffffffde",
+                                      "text": "請用中文輸入prompt，可以这样描述：@圖片主體，細節詞，修飾詞"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "paddingAll": "13px",
+                              "backgroundColor": "#ffffff1A",
+                              "cornerRadius": "2px",
+                              "margin": "lg"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "20px",
+                      "backgroundColor": "#464F69"
+                    },
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "type": "postback",
+                            "label": "參與比賽",
+                            "data": "participate_campaign_1",
+                            "displayText": "我要參加文字生圖比賽"
+                          },
+                          "style": "secondary"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "header": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "horizontal",
+                          "contents": [
+                            {
+                              "type": "image",
+                              "url": "https://hgtvhome.sndimg.com/content/dam/images/hgtv/stock/2018/4/16/0/shutterstock_Dragan-Grkic_1006216669_watering-garden.jpg.rend.hgtvcom.1280.960.suffix/1523911660199.jpeg",
+                              "size": "full",
+                              "aspectMode": "cover",
+                              "aspectRatio": "150:196",
+                              "gravity": "center",
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "image",
+                                  "url": "https://images.unsplash.com/photo-1599277100479-3252d492a19a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2F0ZXJpbmd8ZW58MHx8MHx8&w=1000&q=80",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                },
+                                {
+                                  "type": "image",
+                                  "url": "https://www.englishgardens.com/wp-content/uploads/Watering-tips.png",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "horizontal",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "text": "NEW",
+                                  "size": "xs",
+                                  "color": "#ffffff",
+                                  "align": "center",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "backgroundColor": "#EC3D44",
+                              "paddingAll": "2px",
+                              "paddingStart": "4px",
+                              "paddingEnd": "4px",
+                              "flex": 0,
+                              "position": "absolute",
+                              "offsetStart": "18px",
+                              "offsetTop": "18px",
+                              "cornerRadius": "100px",
+                              "width": "48px",
+                              "height": "25px"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "0px"
+                    },
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "contents": [],
+                                  "size": "xl",
+                                  "wrap": true,
+                                  "text": "雲端澆水 每日打卡",
+                                  "color": "#ffffff",
+                                  "weight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "每天上傳一張澆水的圖片，為遠端的果農助力，參與即可獲得 5 點，點數可用於消費折抵。連續打卡 30 天，更可以獲得 500 元折價券喔。",
+                                  "color": "#ffffffcc",
+                                  "size": "sm",
+                                  "wrap": true
+                                }
+                              ],
+                              "spacing": "sm"
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "box",
+                                  "layout": "vertical",
+                                  "contents": [
+                                    {
+                                      "type": "text",
+                                      "contents": [],
+                                      "size": "sm",
+                                      "wrap": true,
+                                      "margin": "sm",
+                                      "color": "#ffffffde",
+                                      "text": "請拍攝或上傳一張澆水的圖片，會經由我們的圖像辨識引擎進行識別"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "paddingAll": "13px",
+                              "backgroundColor": "#ffffff1A",
+                              "cornerRadius": "2px",
+                              "margin": "lg"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "20px",
+                      "backgroundColor": "#B9B973"
+                    },
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "type": "postback",
+                            "label": "參與活動",
+                            "data": "participate_campaign_2",
+                            "displayText": "我要參加雲端澆水活動"
+                          },
+                          "style": "secondary"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "bubble",
+                    "header": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "horizontal",
+                          "contents": [
+                            {
+                              "type": "image",
+                              "url": "https://i.ytimg.com/vi/WOEMkG3gOKI/maxresdefault.jpg",
+                              "size": "full",
+                              "aspectMode": "cover",
+                              "aspectRatio": "150:196",
+                              "gravity": "center",
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "image",
+                                  "url": "https://img.redbull.com/images/c_crop,w_6720,h_3360,x_0,y_757,f_auto,q_auto/c_scale,w_1200/redbullcom/2018/07/17/4f3fb5c2-8f05-48a9-9720-f58d934752c2/music-collection",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                },
+                                {
+                                  "type": "image",
+                                  "url": "https://www.vlpo.cl/wp-content/uploads/2022/05/3d3d3d3d3.jpg",
+                                  "size": "full",
+                                  "aspectMode": "cover",
+                                  "aspectRatio": "150:98",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "flex": 1
+                            },
+                            {
+                              "type": "box",
+                              "layout": "horizontal",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "text": "NEW",
+                                  "size": "xs",
+                                  "color": "#ffffff",
+                                  "align": "center",
+                                  "gravity": "center"
+                                }
+                              ],
+                              "backgroundColor": "#EC3D44",
+                              "paddingAll": "2px",
+                              "paddingStart": "4px",
+                              "paddingEnd": "4px",
+                              "flex": 0,
+                              "position": "absolute",
+                              "offsetStart": "18px",
+                              "offsetTop": "18px",
+                              "cornerRadius": "100px",
+                              "width": "48px",
+                              "height": "25px"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "0px"
+                    },
+                    "body": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "contents": [
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "text",
+                                  "contents": [],
+                                  "size": "xl",
+                                  "wrap": true,
+                                  "text": "生成歌詞 Competition",
+                                  "color": "#ffffff",
+                                  "weight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "text": "用文字生成靜謐的鄉村、辛勤的果農意境的歌詞，送給果農一首獨一無二的歌，參與皆可贏得一張9折優惠券。票選前三名還可以贏得500元折價券喔。",
+                                  "color": "#ffffffcc",
+                                  "size": "sm",
+                                  "wrap": true
+                                }
+                              ],
+                              "spacing": "sm"
+                            },
+                            {
+                              "type": "box",
+                              "layout": "vertical",
+                              "contents": [
+                                {
+                                  "type": "box",
+                                  "layout": "vertical",
+                                  "contents": [
+                                    {
+                                      "type": "text",
+                                      "contents": [],
+                                      "size": "sm",
+                                      "wrap": true,
+                                      "margin": "sm",
+                                      "color": "#ffffffde",
+                                      "text": "請用中文輸入歌詞大意的關鍵詞，可以這樣描述：#歌詞主題"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "paddingAll": "13px",
+                              "backgroundColor": "#ffffff1A",
+                              "cornerRadius": "2px",
+                              "margin": "lg"
+                            }
+                          ]
+                        }
+                      ],
+                      "paddingAll": "20px",
+                      "backgroundColor": "#408080"
+                    },
+                    "footer": {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "button",
+                          "action": {
+                            "type": "postback",
+                            "label": "參與活動",
+                            "data": "participate_campaign_3",
+                            "displayText": "我要參加生成歌詞比賽"
+                          },
+                          "style": "secondary"
+                        }
+                      ]
+                    }
+                  }
+            ]
+          }
+    }
+]

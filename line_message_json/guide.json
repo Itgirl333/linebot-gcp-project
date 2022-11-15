@@ -1,0 +1,25 @@
+[
+    {
+    "type": "text",
+    "text": "您已進入雲端澆水活動，請上傳一張澆水的圖片，可以自行拍攝或 Google 搜尋",
+    "quickReply": {
+    "items": 
+            [
+                {
+                "type": "action",
+                "action": {
+                    "type": "cameraRoll",
+                    "label": "相簿"
+                    }
+                },
+                {
+                "type": "action",
+                "action": {
+                    "type": "camera",
+                    "label": "拍照"
+                    }
+                }
+            ]
+        }
+    }
+]

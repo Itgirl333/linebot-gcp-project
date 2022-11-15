@@ -1,0 +1,383 @@
+[
+    {
+        "type": "flex",
+        "altText": "This is a Flex Message",
+        "contents": {
+            "type": "carousel",
+            "contents": [
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2210050001_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "無毒十月紅酪梨",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "650±50g/顆常溫"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 128",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_1",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_1",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2209060006_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "祕魯藍莓",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "125g冷藏"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 128",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_2",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_2",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2102020008_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "產銷履歷木瓜(大)",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "600-800g冷藏"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 100",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_3",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_3",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2110280001_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "有機金鑽鳳梨(M)",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1300-1500g冷藏"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 173",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_4",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_4",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2010130007_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "草生栽培黃檸檬",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "1顆冷藏"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 29",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_5",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_5",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "type": "bubble",
+                    "hero": {
+                        "type": "image",
+                        "size": "full",
+                        "aspectRatio": "20:13",
+                        "aspectMode": "cover",
+                        "url": "https://superbuy-hifamily.cdn.hinet.net/superbuy_admin/images/product/683/PR2204120005_main_360x240.jpg?22101910"
+                    },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "md",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "南非砂糖橘",
+                                "wrap": true,
+                                "weight": "bold",
+                                "size": "xl"
+                            },
+                            {
+                                "type": "text",
+                                "text": "8顆(約600g)/袋冷藏"
+                            },
+                            {
+                                "type": "text",
+                                "text": "$ 80",
+                                "size": "xl",
+                                "weight": "bold",
+                                "align": "start"
+                            }
+                        ],
+                        "margin": "none"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "button",
+                                "style": "primary",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "加入購物車",
+                                    "data": "add_to_cart_6",
+                                    "displayText": "我要加入購物車"
+                                }
+                            },
+                            {
+                                "type": "button",
+                                "action": {
+                                    "type": "postback",
+                                    "label": "直接下單",
+                                    "data": "pay_rightnow_6",
+                                    "displayText": "我要直接下單"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,488 @@
+[
+    {
+          "type": "flex",
+          "altText": "This is a Flex Message",
+          "contents": {
+            "type": "carousel",
+            "contents": [
+              {
+                "type": "bubble",
+                "hero": {
+                  "type": "image",
+                  "url": "https://fruitbox.blob.core.windows.net/pagematerials/activity/fruit-tree/slider_pic6.png",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "20:13"
+                },
+                "body": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "桶柑",
+                      "size": "xl",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "農場",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "新竹峨眉－鼎鐸農園",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "產季",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "12月～5月",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "重量",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "一棵果樹",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "價格",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "$ 6999",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "人數",
+                            "flex": 1,
+                            "size": "md",
+                            "color": "#aaaaaa"
+                          },
+                          {
+                            "type": "text",
+                            "text": "485",
+                            "flex": 5,
+                            "size": "md",
+                            "color": "#666666",
+                            "offsetStart": "20%",
+                            "position": "absolute"
+                          }
+                        ],
+                        "spacing": "sm",
+                        "margin": "md"
+                      }
+                  ]
+                },
+                "footer": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "集體認養",
+                        "data": "add_to_adopt_1",
+                        "displayText": "我要加入集體認養"
+                      },
+                      "style": "primary",
+                      "offsetBottom": "sm"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "bubble",
+                "hero": {
+                  "type": "image",
+                  "url": "https://i1.hhbky.com/c85a0e2932/c95f0b/93045e73/cd4b042c24479909a06d.jpg",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "20:13"
+                },
+                "body": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "夏雪芒果",
+                      "size": "xl",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "農場",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "台東知本－冬陽農場",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "產季",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "4月～11月",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "重量",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "一棵果樹",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "價格",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "$ 7999",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "人數",
+                            "flex": 1,
+                            "size": "md",
+                            "color": "#aaaaaa"
+                          },
+                          {
+                            "type": "text",
+                            "text": "242",
+                            "flex": 5,
+                            "size": "md",
+                            "color": "#666666",
+                            "offsetStart": "20%",
+                            "position": "absolute"
+                          }
+                        ],
+                        "spacing": "sm",
+                        "margin": "md"
+                      }
+                  ]
+                },
+                "footer": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "集體認養",
+                        "data": "add_to_adopt_2",
+                        "displayText": "我要加入集體認養"
+                      },
+                      "style": "primary",
+                      "offsetBottom": "sm"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "bubble",
+                "hero": {
+                  "type": "image",
+                  "url": "https://www.newsmarket.com.tw/files/2022/08/%E6%96%87%E6%97%A6%E6%9F%9A%E6%9E%9C%E5%9C%92%E8%A3%A1%EF%BC%8C%E6%AF%8F%E6%A3%B5%E6%9F%9A%E6%A8%B9%E9%83%BD%E6%8E%9B%E6%BB%BF%E5%AF%86%E5%AF%86%E9%BA%BB%E9%BA%BB%E7%9A%84%E6%9E%9C%E5%AF%A6%EF%BC%88%E6%94%9D%E5%BD%B1%EF%BC%8F%E5%AD%AB%E7%B6%AD%E6%8F%9A%EF%BC%89.jpg",
+                  "size": "full",
+                  "aspectMode": "cover",
+                  "aspectRatio": "20:13"
+                },
+                "body": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "文旦柚",
+                      "size": "xl",
+                      "weight": "bold"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "農場",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "台南麻豆－5012柚意思",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "產季",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "6月～10月",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "重量",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "一顆果樹",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "價格",
+                          "flex": 1,
+                          "size": "md",
+                          "color": "#aaaaaa"
+                        },
+                        {
+                          "type": "text",
+                          "text": "$ 4999",
+                          "flex": 5,
+                          "size": "md",
+                          "color": "#666666",
+                          "offsetStart": "20%",
+                          "position": "absolute"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    },
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                          {
+                            "type": "text",
+                            "text": "人數",
+                            "flex": 1,
+                            "size": "md",
+                            "color": "#aaaaaa"
+                          },
+                          {
+                            "type": "text",
+                            "text": "378",
+                            "flex": 5,
+                            "size": "md",
+                            "color": "#666666",
+                            "offsetStart": "20%",
+                            "position": "absolute"
+                          }
+                        ],
+                        "spacing": "sm",
+                        "margin": "md"
+                      }
+                  ]
+                },
+                "footer": {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "button",
+                      "action": {
+                        "type": "postback",
+                        "label": "集體認養",
+                        "data": "add_to_adopt_3",
+                        "displayText": "我要加入集體認養"
+                      },
+                      "style": "primary",
+                      "offsetBottom": "sm"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+    }
+]

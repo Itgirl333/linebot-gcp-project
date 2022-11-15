@@ -1,0 +1,44 @@
+[
+    {
+    "type": "text",
+    "text": "嗨嗨，歡迎來到AI宇宙，這裡不一定有外星人，但有很多高智慧的AI生物喔(alien in ufo)"
+    },
+    {
+    "type": "template",
+    "altText": "this is a buttons template",
+    "template": 
+        {
+        "type": "buttons",
+        "thumbnailImageUrl": "https://theaigang.com/wp-content/uploads/2021/03/AIart-theAIgang-02.jpg",
+        "title": "創新應用，無限可能",
+        "text": "這裡有很多好玩的AI應用，快來試試",
+        "actions": 
+        [
+            {
+                "type": "postback",
+                "label": "文字生圖",
+                "text": "我想要文字生圖",
+                "data": "@文字生圖"
+            },
+            {
+                "type": "postback",
+                "label": "生成文章",
+                "text": "我想要生成文章",
+                "data": "@生成文章"
+            },
+            {
+                "type": "postback",
+                "label": "自由問答",
+                "text": "我想要自由問答",
+                "data": "@自由問答"
+            },
+            {
+                "type": "postback",
+                "label": "風格轉換",
+                "text": "我想要風格轉換",
+                "data": "@風格轉換"
+            }
+            ]
+        }
+    }
+]

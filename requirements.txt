@@ -1,0 +1,15 @@
+google-cloud-storage
+google-cloud-firestore
+google-cloud-logging
+flask
+gunicorn
+line-bot-sdk
+wenxin-api
+opencc-python-reimplemented
+beautifulsoup4
+wheel
+grpcio
+flask_cors
+pandas
+tensorflow-cpu == 2.4.1
+Pillow

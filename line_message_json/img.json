@@ -1,0 +1,65 @@
+[
+    {
+        "type": "template",
+        "altText": "this is an image carousel template",
+        "template": {
+          "type": "image_carousel",
+          "columns": [
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 1",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_1"
+              }
+            },
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 2",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_2"
+              }
+            },
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 3",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_3"
+              }
+            },
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 4",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_4"
+              }
+            },
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 5",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_5"
+              }
+            },
+            {
+              "imageUrl": "https://ezgo.coa.gov.tw/Content/Ezgo_Fruit/images/season_pages/plum1-01.jpg",
+              "action": {
+                "type": "postback",
+                "label": "提交作品 6",
+                "text": "提交圖片參加比賽",
+                "data": "commit_img_6"
+              }
+            }
+          ]
+        }
+      }
+]
